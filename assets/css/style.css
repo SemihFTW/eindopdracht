@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid #101419;
+    border: 5px solid rgb(25, 0, 255);
+}
+
+#header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #101419;
+    border: 5px solid rgb(25, 0, 255);
+    font-style: italic;
+}
+
+#header img {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+#header img:hover{
+    transition: 0.70s;
+    transform: rotate(360deg);
+}
+
+#header h1 {
+    padding-top: 30px;
+    color: #fff;
+}
+
+#content {
+    background-color: #101419;
+    color: #fff;
+    padding: 50px;
+    border: 5px solid rgb(25, 0, 255);
+}
+
+#content h2 {
+    text-align: center;
+    font-style:oblique;
+}
+
+#content #intro {
+padding-top: 20px;
+}
+#content #overig {
+padding-top: 20px;
+}
+#content #kennis {
+padding-top: 20px;
+}
+#content #kennis ul {
+    padding-left: 15px;
+}
+
+#footer {
+    background-color: black;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    border: 5px solid rgb(25, 0, 255);
+    
+    
+}
+#footer ul {
+    display: block;
+    padding-top: 10px;
+}
+#footer ul li {
+    display: inline-block;
+}
+
+#footer ul li a {
+    padding: 10px;
+}
+
+#expirimental{
+    width: 950px;
+    height: 900px;
+    background-color: #101419;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    border: 5px solid rgb(25, 0, 255);
+    background-image: linear-gradient(rgb(25, 0, 255), black);
+}
+
+.youtube{
+    height: 30px;
+    width: 30px;
+}
+
+.instagram{
+    height: 30px;
+    width: 30px;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    table-layout: auto; width: 100%;
+    width: 70%;
+  
+  }
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  table tr {
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  table tr:nth-child(even) {
+    background: #f8f8f8;  
+  }
+  table th,
+  table td {
+    padding: .625em;
+    text-align: left;
+    background: #292B3C;
+    color: white
+  }
+  table th {
+    background: #999;
+    color: #fff;
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
